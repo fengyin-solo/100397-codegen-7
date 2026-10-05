@@ -82,7 +82,7 @@ import {
 import type { EntryRow } from '@/data/types'
 
 const meta = moduleMeta('rain_gauge')
-const columns = ["记录编号", "站点编号", "观测时段", "时段雨量", "日累计雨量", "小时最大雨强", "是否触发预警", "记录状态"]
+const columns = ["记录编号", "站点编号", "隐患点编号", "观测时段", "时段雨量", "日累计雨量", "小时最大雨强", "是否触发预警", "记录状态"]
 const actions = ["提交审核", "触发预警", "标记异常"]
 const statuses = ["已采集", "已审核", "达预警值", "异常值"]
 const stats = [{"label": "雨量站点数", "value": 0}, {"label": "达预警值站次", "value": 0}, {"label": "累计降雨量", "value": 0}]

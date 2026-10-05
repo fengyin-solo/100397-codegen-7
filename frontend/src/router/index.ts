@@ -7,6 +7,7 @@ const Crack = () => import('@/views/crack/index.vue')
 const Tilt = () => import('@/views/tilt/index.vue')
 const RainGauge = () => import('@/views/rain_gauge/index.vue')
 const Threshold = () => import('@/views/threshold/index.vue')
+const ThresholdBatch = () => import('@/views/threshold_batch/index.vue')
 const Alarm = () => import('@/views/alarm/index.vue')
 const Evacuation = () => import('@/views/evacuation/index.vue')
 const Patrol = () => import('@/views/patrol/index.vue')
@@ -30,6 +31,7 @@ const router = createRouter({
     { path: '/tilt', name: 'tilt', component: Tilt },
     { path: '/rain_gauge', name: 'rain_gauge', component: RainGauge },
     { path: '/threshold', name: 'threshold', component: Threshold },
+    { path: '/threshold_batch', name: 'threshold_batch', component: ThresholdBatch },
     { path: '/alarm', name: 'alarm', component: Alarm },
     { path: '/evacuation', name: 'evacuation', component: Evacuation },
     { path: '/patrol', name: 'patrol', component: Patrol },
